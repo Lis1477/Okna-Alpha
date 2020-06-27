@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* Сброс стилей броузеров */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+/* Конец сброса стилей броузеров */
+/* ************************************************* */
+/* Общие свойства */
+.all {width:98%; max-width: 1500px; margin: 0 auto; font-family: Verdana, Geneva, sans-serif; color:#333333;}
+a {text-decoration: none; color:inherit;}
+a:hover {text-decoration:underline;}
+h1 {font-size:1.4em; text-align:center; color:#E31E24;}
+h2 {margin-bottom:0.5em; font-size:1.3em; font-weight:bolder;}
+h3 {margin-bottom:0.2em; font-size:1.2em;}
+p {margin-bottom:0.2em; font-size:1em;}
+strong {font-weight:bold;}
+.zvezd {color:#FF0000; font-size:1.3em; font-weight: bold; vertical-align:-0.2em;}
+.form_rem { color:#009900; font-size:0.7em;}
+
+/* Свойства хэдера */
+header {width:100%;}
+header .logo {display:inline-block; width:60px;}
+header .logo img {display:block; width:100%; padding:5px 0;}
+header .greeting {display:inline-block; width:70%; float:right; padding:5px;}
+
+.tbl_2 {display:table; width:100%; border-top: solid 3px #E31E24;}
+.rw_2 {display:table-row;}
+.cl_2 {display: table-cell; padding: 0.5em; vertical-align:top;}
+.cl_22 {display:table-cell; border-right: solid 3px #E31E24; padding: 0.5em 0; width:20%; padding: 0.5em 0.5em 0.5em 0; vertical-align:top;}
+
+/* кнопка удалениия */
+.del_button {display:inline-block; margin-left:30px; padding:5px 10px; background-color:#FF9797; border-radius:13px; font-weight:bold;}
+.del_button:hover {background-color:#FF7575;}
+
+.da_net form {display:inline-block; margin:0.3em 1em 0 0;}
+
+/* форма в контактах */
+.phones-table {margin-top:10px;}
+.phones-table th {font-weight:bold; font-size:0.8em;}
+.phones-table td {padding:7px;}
+.phones-table td input {width:80px;}
+
+/* кнопка редактирования админов */
+.adkn {margin-top:1em;}
+.adkn a {background-color:#B0D8FF; padding:3px 5px; border:solid 1px #4AC5FF; border-radius:13px; text-decoration:none;}
+.adkn a:hover {background-color:#4AC5FF;}
+
+
+/* РЎРІРѕР№СЃС‚РІР° Р±Р»РѕРєР° РІС‹РІРѕРґР° Р·Р°РїСЂРѕСЃРѕРІ */
+article {display:inline-block; padding: 0.5em; width:80%;}
+/* РЎРІРѕР№СЃС‚РІР° Р±Р»РѕРєР° СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёСЏ РєР°СЂС‚РёРЅРѕРє */
+.picview {border-bottom:solid 1px #999999;}
+.picview p {display: table-cell; padding:0.4em 1em 1em 0.4em;}
+.picview img {margin-bottom: -1em;}
+.picview img:hover {transform: scale(5);}
+.picview a {background-color:#FFFF99; padding:0.3em; border:solid 1px #99CC00; border-radius:0.5em;}
+.picview .redpic_lev {width:15em;}
+.picview .redpic_im {width:4em; text-align:center;}
+.picview .redpic_kn1 {width:10em; text-align:center;}
+.picview .redpic_kn1 {width:8em; text-align:center;}
+
+
+/* свойства добавления категорий раскрасок */
+.dobacat {margin:0.1em;}
+.dobacat span {display:inline-block;}
+.dobacat span h2, span h3 {padding:0.2em;}
+.dobacat span h2 {color: #0099FF;}
+.dobacat span h3 {color: #009900;}
+.dobacat a {background-color: #C0F3FE; margin-left:2em; padding :0.2em; border-radius:0.5em; border:#0099FF solid 1px;}
+.cat3 {font-size:0.9em; margin-left:2em; color: #FD6CC4;}
+
+/* свойства редактирования категорий раскрасок */
+.catoreg {margin-bottom:1em;}
+.catoreg h2, h3, p {margin:0 0 0.4em 0;}
+.catoreg h2 a {color: #0099FF;}
+.catoreg h3 a {color: #009900;}
+.catoreg p a {color: #FD6CC4;}
+
+
+/* свойства сортировки статей */
+.arsor {border-bottom:solid 1px #999999; padding: 0.5em 0;}
+
+/* РЎРІРѕР№СЃС‚РІР° Р»РµРІРѕРіРѕ РЅР°РІРёРіР°С†РёРѕРЅРЅРѕРіРѕ Р±Р»РѕРєР°  */
+aside {display:inline-block; float:left; width: 15%; border-right: solid 5px #33FFCC; padding: 0.5em}

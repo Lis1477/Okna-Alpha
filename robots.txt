@@ -1,0 +1,16 @@
+User-agent: * 
+Disallow: /adm/
+Disallow: /inc/
+Disallow: /kontakti.html
+Allow: /inc/css/
+Allow: /inc/js/
+
+User-agent: Yandex
+Disallow: /adm/
+Disallow: /inc/
+Disallow: /kontakti.html
+Allow: /inc/css/
+Allow: /inc/js/
+
+Host: http://okna-a.by
+# Sitemap: http://okna-a.by/sitemap.xml
